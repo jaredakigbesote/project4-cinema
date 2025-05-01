@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ /* body css */
+ body {min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: rgb(67, 138, 20);
+    font-family: ;
+}
+
+h1 h2 h3 h4{
+    font-family: ;
+    color: #ad6200;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+} 
+
+.hp-logo {
+    color: #579b17;
+}
+
+header { 
+    background-color: black;
+    padding: 0;
+    position: sticky;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #808080;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    top: 0;
+    left: 0;
+}
+
+header a {
+    text-decoration: none;
+}
+
+#menu {
+    letter-spacing: 1px;
+    list-style-type: none;
+    font-size: 110%;
+    color: #ad6200;
+}
+
+.active {
+    color: #579b17;
+    border-bottom: 2px solid #579b17;
+}
+#menu>li {
+    margin-bottom: 1em;
+}
+
+a {
+    color: white;
+
+}
+
+#nav-toggle:checked ~ nav {
+    display: block;
+}
+#nav-toggle {
+    display: none;
+}
+#nav-toggle-label {
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+
+
+
+#home-page {
+
+}
+
